@@ -13,6 +13,7 @@
     src: url(RetroMario-Regular.otf) format('opentype');
 
 }
+
 header{
     background-image: linear-gradient(to top, rgb(0, 0, 0), rgb(92, 0, 0));
     padding-bottom: 1%;
@@ -56,6 +57,7 @@ div.video{
     background-image: linear-gradient(to right, darkred, rgb(187, 7, 7), rgba(235, 13, 13, 0.986));
     position: relative;
     padding-bottom: 30%;
+    border-radius: 0px 0px 20px 20px;
 }
 
 div.video > iframe{
@@ -75,11 +77,11 @@ section{
     margin-right: 50px; 
     height: auto;
     background-image: linear-gradient(to right, darkred, rgb(187, 7, 7), rgba(235, 13, 13, 0.986));
+    border-radius: 20px
 }
 #section1{    
     display: inline-block;
     text-align: center;
-    border-radius: 20px 20px 0px 0px;
 }
 #section1 > h1{
     font-size: 2em;
@@ -129,7 +131,6 @@ section{
 #section3{
     display: inline-block;
     text-align: center;
-    border-radius: 0px 0px 20px 20px;
 }
 #section3 > h2{
     font-size: 3em;
@@ -152,7 +153,7 @@ section{
 }
 footer{
     background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(92, 0, 0));
-    padding: 20px;
+    padding: 40px;
 }
 #portifolio{
     text-decoration: none;
