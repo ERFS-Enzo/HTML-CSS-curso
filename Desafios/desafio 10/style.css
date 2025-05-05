@@ -163,7 +163,7 @@ footer{
     text-decoration: underline;
     color: rgb(170, 0, 0);
 }
-#começo{
+p > #começo{
     text-decoration: none;
     color: white;
     font-weight: bold;
