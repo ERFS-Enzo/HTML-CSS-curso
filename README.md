@@ -3,4 +3,4 @@
 
     Aprendendo a criar sites e gerenciar meus repositórios!!
 
-<a href="https://erfs-enzo.github.io/HTML-CSS-curso/Desafios/desafio 10">Executar Desafio 10</a>
+<a href="https://erfs-enzo.github.io/HTML-CSS-curso/Desafios/desafio 10" target="_blank">Executar Desafio 10</a>
