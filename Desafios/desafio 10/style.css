@@ -1,0 +1,174 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+}
+@font-face {
+    font-family: 'Mega Man';
+    src: url(Mega-Man-ZX.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'mario';
+    src: url(RetroMario-Regular.otf) format('opentype');
+
+}
+header{
+    background-image: linear-gradient(to top, rgb(0, 0, 0), rgb(92, 0, 0));
+    padding-bottom: 1%;
+}
+header > h1, p{
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    padding-top: 20px;
+    text-shadow: 5px 5px 10px black;
+}
+header > h1{
+    font-size: 3em;
+}
+nav{
+    padding-top: 50px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+}
+.link{
+    color:white;
+    display: inline;
+    padding-right: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+.link:hover{
+    text-decoration: underline;
+    color: rgb(170, 0, 0);
+}
+.link:active{
+    color: rgb(79, 79, 194);
+}
+main{
+    display: block;
+    background-color: black; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
+div.video{
+    background-image: linear-gradient(to right, darkred, rgb(187, 7, 7), rgba(235, 13, 13, 0.986));
+    position: relative;
+    padding-bottom: 30%;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 6%;
+    right: 26.58%;
+    width: 40%;
+    height: 75%;
+    border-radius: 20px;
+}
+hr{
+    margin: 0px 50px; 
+    border: 1px dashed black;
+}
+section{
+    margin-left: 50px;
+    margin-right: 50px; 
+    height: auto;
+    background-image: linear-gradient(to right, darkred, rgb(187, 7, 7), rgba(235, 13, 13, 0.986));
+}
+#section1{    
+    display: inline-block;
+    text-align: center;
+    border-radius: 20px 20px 0px 0px;
+}
+#section1 > h1{
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+    padding-bottom: 15px;
+    padding-top: 10px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+#section1 > p {
+    text-align: justify;
+    padding: 10px 10px;
+    font-size: 1.2em;
+    text-indent: 20px;
+}
+#section2{
+    display: inline-block;
+    text-align: center;
+}
+#section2 > h2{
+    font-size: 1.4em;
+    color: rgb(22, 0, 0);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Mega Man';
+}
+#section2 > h3{
+    font-size: 1.6em;
+    color: rgb(43, 8, 8);
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+#section2 > p{
+    font-size: 1.2em;
+    text-align: justify;
+    text-indent: 20px;
+    padding: 10px 10px;
+}
+#section2 > img{
+    padding: 10px 15px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 15px black;
+    background-color: white;
+    height: 200px;
+    max-width: 320px;
+}
+
+#section3{
+    display: inline-block;
+    text-align: center;
+    border-radius: 0px 0px 20px 20px;
+}
+#section3 > h2{
+    font-size: 3em;
+    color: rgb(22, 0, 0);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'mario';
+}
+#section3 > h3{
+    font-size: 1.6em;
+    color: rgb(43, 8, 8);
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+#section3 > p{
+    font-size: 1.2em;
+    text-align: justify;
+    text-indent: 20px;
+    padding: 10px 10px;
+}
+footer{
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(92, 0, 0));
+    padding: 20px;
+}
+#portifolio{
+    text-decoration: none;
+    color:  rgb(170, 0, 0);
+    font-weight: bold;
+}
+#portifolio:hover{
+    text-decoration: underline;
+    color: rgb(170, 0, 0);
+}
+#começo{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+#começo:hover{
+    text-decoration: underline;
+    color: rgb(170, 0, 0);
+}

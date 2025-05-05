@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: lightslategray;
+            padding: 3px;
+            box-shadow: 1px 1px 1px black;
+        }
+        nav > a{
+            text-decoration: none;
+            color: rgb(1, 242, 250);
+            font-weight: bold;
+            margin-right: 10px;
+            
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+        section{
+            background-color: rgb(142, 177, 182);
+        }
+        article{
+            background-color: lightgray;
+            padding: 3px;
+        }
+        article > aside{
+            background-color: darkgray;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 5px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 10px auto;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h2>O fator preocupante sobre lorem ipsum</h2>
+            <p>sabemos que toda vez que digitamos "lorem" e apertamos o enter, um texto aleatorio de lorem ipsum será escrito, veja o fator preocupante disso: </p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre lorem ipsum</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore nemo velit, aliquid expedita aspernatur incidunt alias nulla molestiae sint nisi quae corrupti provident, enim praesentium aliquam quasi itaque minima voluptas?</p>
+                <aside>
+                    <p>artigo escrito por enzo</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo curso em video</p>
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>

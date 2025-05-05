@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias em html5</title>
+</head>
+<body>
+    <p>Tente abrir estes sites em dispositivos diferente ou aumente e diminua o tamanho do navegador</p>   
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/300x300.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/700x700.jpg" type="image/jpg">
+        <img src="imagens/1000x1000.jpg" alt="imagem flexivel">
+    </picture>
+    <h1>reprodzindo audios</h1>
+    <p>vamos aprender a reproduzir audios em HTML5</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="media/Your Precious Love - John Deley and the 41 Players.mp3" type="audio/mpeg"> <!--mp3-->
+        <source src="media/Your Precious Love - John Deley and the 41 Players.ogg" type="audio/ogg"> <!--ogg-->
+        <source src="media/Your Precious Love - John Deley and the 41 Players.wav" type="audio/wav"> <!--wav-->
+        <p>Infelizmente seu navegador não conseguue reproduzir audio. <a href="media/Your Precious Love - John Deley and the 41 Players.mp3">clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+</body>
+</html>
