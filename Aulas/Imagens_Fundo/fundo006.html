@@ -7,15 +7,25 @@
     <style>
         body{
             height: 100vh;
+            /*
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center top;
             background-repeat: no-repeat;
             background-size:cover;
+            background-attachment: fixed;
+            */
+
+            /*
+            Shorthand - background:
+            color > image > position > repeat > [size (não funciona ainda)] > attachment
+            */
+            background-size: cover;
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
         }
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -25,7 +35,8 @@
 <body>
     <main>
         <h1>Teste de imagem com fundo</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt est, exercitationem facilis, itaque consequuntur unde aut nulla corrupti dolorem doloribus eveniet quam alias quibusdam debitis assumenda in enim repellendus Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, assumenda porro? Fugit, cum autem laboriosam dolorem dignissimos, qui quasi vel repudiandae esse quam ipsam ut excepturi possimus at corrupti porro?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt est, exercitationem facilis, itaque consequuntur unde aut nulla corrupti dolorem doloribus eveniet quam alias quibusdam debitis assumenda in enim repellendus Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, assumenda porro? Fugit, cum autem laboriosam dolorem dignissimos, qui quasi vel repudiandae esse quam ipsam ut excepturi possimus at corrupti porro? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum adipisci dicta quod porro rerum omnis quae ab repellat ullam inventore? A, possimus? Quod, quae ipsa quis iure dolores sunt corporis? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, ipsa! Impedit, dignissimos cupiditate, repudiandae quia deleniti rem ducimus non dolorem assumenda eligendi delectus magnam nemo tenetur minima molestiae ipsa sequi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi dolorum eum, quas dicta explicabo odio similique quod ad eaque laboriosam reiciendis molestias vel architecto eius perferendis, dolores tenetur iure doloremque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere fugit non eos adipisci repellat iste ipsam nostrum. Optio voluptas quibusdam perspiciatis accusantium similique fugiat a, unde explicabo maiores libero incidunt!</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt est, exercitationem facilis, itaque consequuntur unde aut nulla corrupti dolorem doloribus eveniet quam alias quibusdam debitis assumenda in enim repellendus Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, assumenda porro? Fugit, cum autem laboriosam dolorem dignissimos, qui quasi vel repudiandae esse quam ipsam ut excepturi possimus at corrupti porro? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum adipisci dicta quod porro rerum omnis quae ab repellat ullam inventore? A, possimus? Quod, quae ipsa quis iure dolores sunt corporis? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, ipsa! Impedit, dignissimos cupiditate, repudiandae quia deleniti rem ducimus non dolorem assumenda eligendi delectus magnam nemo tenetur minima molestiae ipsa sequi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi dolorum eum, quas dicta explicabo odio similique quod ad eaque laboriosam reiciendis molestias vel architecto eius perferendis, dolores tenetur iure doloremque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere fugit non eos adipisci repellat iste ipsam nostrum. Optio voluptas quibusdam perspiciatis accusantium similique fugiat a, unde explicabo maiores libero incidunt!</p>
     </main>   
 </body>
 </html>
