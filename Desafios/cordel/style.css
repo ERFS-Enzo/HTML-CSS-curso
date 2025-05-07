@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --fonte01: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte02: "Passion One", sans-serif;
+    --fonte03: "Sriracha", cursive;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    font-family: var(--fonte01);
+    min-height: 100vh;
+    background-color: darkgray;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--fonte02);
+    font-size: 8vw;
+}
+header > p{
+    padding-bottom: 50px;
+}
+header a, footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+header a:hover, footer a:hover{
+    text-decoration: underline;
+    color: rgb(143, 47, 143);
+    transition-duration: 0.5s;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px
+}
+section{
+    font-size: 2.5vw;
+    font-family: var(--fonte03);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+section > p{
+    padding-bottom: 2em;
+}
+section.normal{
+    background-color: white;
+    color: black;
+}
+section.imagem{
+    background-color: rgb(31, 30, 30);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.336);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.308);
+    display: inline-block;
+    padding: 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.712);
+}
+section#img01{
+    background-image: url('imagens/white-horse-3010129_1280.jpg');
+}
+section#img02{
+    background-image: url('imagens/nature-7081138_1280.jpg');    
+}
